@@ -1,4 +1,5 @@
 <h1>Today</h1>
 <% time = Time.new %>
 <% days = %w(Sunday Monday Tuesday Wednesday Thursday Friday Saturday) %>
-<p><%= "The date is #{days[time.wday]}, ." %></p>
+<% months = %w(January February March April May June July August September October November December) %>
+<p><%= "The date is #{days[time.wday]}, #{months[time.month]}." %></p>
