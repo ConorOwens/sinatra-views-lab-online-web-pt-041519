@@ -2,4 +2,4 @@
 <% time = Time.new %>
 <% days = %w(Sunday Monday Tuesday Wednesday Thursday Friday Saturday) %>
 <% months = %w(January February March April May June July August September October November December) %>
-<p><%= "The date is #{days[time.wday]}, #{months[time.month]}." %></p>
+<p><%= "The date is #{days[time.wday]}, #{months[time.month]} #{time.day}." %></p>
